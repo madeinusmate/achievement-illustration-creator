@@ -1,0 +1,8 @@
+{
+  "shape": "octagon",
+  "borderMm": 4,
+  "primaryHex": "#2563EB",
+  "accentHex1": "#1E3A8A",
+  "accentHex2": "#FFFFFF",
+  "logoPath": "assets/logo.png"
+}

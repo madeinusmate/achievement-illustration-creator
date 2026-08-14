@@ -1,0 +1,316 @@
+{
+  "source": "puffpal",
+  "extractedFrom": [
+    "utils/achievements.ts",
+    "i18n/locales/en.ts"
+  ],
+  "locale": "en",
+  "count": 49,
+  "categories": [
+    { "id": "streak", "label": "Streak" },
+    { "id": "tracking", "label": "Tracking" },
+    { "id": "reduction", "label": "Reduction" },
+    { "id": "pet", "label": "Pet" },
+    { "id": "journal", "label": "Journal" },
+    { "id": "mission", "label": "Missions" },
+    { "id": "money", "label": "Savings" },
+    { "id": "health", "label": "Health" },
+    { "id": "awareness", "label": "Awareness" }
+  ],
+  "achievements": [
+    {
+      "id": "streak_3_days",
+      "title": "First Steps",
+      "description": "3 days on track",
+      "category": "streak"
+    },
+    {
+      "id": "streak_7_days",
+      "title": "One Week Strong",
+      "description": "7 days on track",
+      "category": "streak"
+    },
+    {
+      "id": "streak_14_days",
+      "title": "Two Week Warrior",
+      "description": "14 days on track",
+      "category": "streak"
+    },
+    {
+      "id": "streak_30_days",
+      "title": "Monthly Master",
+      "description": "30 days on track",
+      "category": "streak"
+    },
+    {
+      "id": "streak_60_days",
+      "title": "Two Month Champion",
+      "description": "60 days on track",
+      "category": "streak"
+    },
+    {
+      "id": "streak_90_days",
+      "title": "Quarterly Legend",
+      "description": "90 days on track",
+      "category": "streak"
+    },
+    {
+      "id": "streak_180_days",
+      "title": "Half Year Hero",
+      "description": "180 days on track",
+      "category": "streak"
+    },
+    {
+      "id": "streak_365_days",
+      "title": "One Year Legend",
+      "description": "365 days on track",
+      "category": "streak"
+    },
+    {
+      "id": "tracking_first_log",
+      "title": "First Puff Logged",
+      "description": "Log your very first puff",
+      "category": "tracking"
+    },
+    {
+      "id": "tracking_7_days",
+      "title": "Week Tracker",
+      "description": "Track for 7 days",
+      "category": "tracking"
+    },
+    {
+      "id": "tracking_30_days",
+      "title": "Monthly Commitment",
+      "description": "Track for 30 days",
+      "category": "tracking"
+    },
+    {
+      "id": "tracking_90_days",
+      "title": "Quarter Dedication",
+      "description": "Track for 90 days",
+      "category": "tracking"
+    },
+    {
+      "id": "tracking_180_days",
+      "title": "Half Year Tracker",
+      "description": "Track for 180 days",
+      "category": "tracking"
+    },
+    {
+      "id": "tracking_365_days",
+      "title": "Full Year Tracked",
+      "description": "Track for a full year",
+      "category": "tracking"
+    },
+    {
+      "id": "reduction_first_save",
+      "title": "First Win",
+      "description": "Save your first puff",
+      "category": "reduction"
+    },
+    {
+      "id": "reduction_50_saved",
+      "title": "Fifty Down",
+      "description": "Save 50 puffs total",
+      "category": "reduction"
+    },
+    {
+      "id": "reduction_100_saved",
+      "title": "Triple Digits",
+      "description": "Save 100 puffs total",
+      "category": "reduction"
+    },
+    {
+      "id": "reduction_500_saved",
+      "title": "Five Hundred Club",
+      "description": "Save 500 puffs total",
+      "category": "reduction"
+    },
+    {
+      "id": "reduction_1000_saved",
+      "title": "Thousand Saver",
+      "description": "Save 1,000 puffs total",
+      "category": "reduction"
+    },
+    {
+      "id": "reduction_half",
+      "title": "Halfway There",
+      "description": "Cut your daily average in half",
+      "category": "reduction"
+    },
+    {
+      "id": "reduction_zero_day",
+      "title": "Zero Day",
+      "description": "A full day with zero puffs",
+      "category": "reduction"
+    },
+    {
+      "id": "reduction_zero_3_days",
+      "title": "Three Clean Days",
+      "description": "3 days with zero puffs",
+      "category": "reduction"
+    },
+    {
+      "id": "reduction_zero_7_days",
+      "title": "Clean Week",
+      "description": "7 days with zero puffs",
+      "category": "reduction"
+    },
+    {
+      "id": "pet_named",
+      "title": "Name Day",
+      "description": "Give your pet a name",
+      "category": "pet"
+    },
+    {
+      "id": "pet_evolution_1",
+      "title": "First Evolution",
+      "description": "Your pet evolved to level 1",
+      "category": "pet"
+    },
+    {
+      "id": "pet_evolution_2",
+      "title": "Growing Strong",
+      "description": "Your pet evolved to level 2",
+      "category": "pet"
+    },
+    {
+      "id": "pet_evolution_3",
+      "title": "Mighty Companion",
+      "description": "Your pet evolved to level 3",
+      "category": "pet"
+    },
+    {
+      "id": "pet_evolution_4",
+      "title": "Ancient Power",
+      "description": "Your pet reached max level",
+      "category": "pet"
+    },
+    {
+      "id": "pet_full_health",
+      "title": "Perfect Health",
+      "description": "Pet at 100% health",
+      "category": "pet"
+    },
+    {
+      "id": "pet_full_health_7",
+      "title": "Health Streak",
+      "description": "Pet at 100% health for 7 days",
+      "category": "pet"
+    },
+    {
+      "id": "journal_first",
+      "title": "Dear Diary",
+      "description": "Write your first journal entry",
+      "category": "journal"
+    },
+    {
+      "id": "journal_7",
+      "title": "Weekly Writer",
+      "description": "Write 7 journal entries",
+      "category": "journal"
+    },
+    {
+      "id": "journal_30",
+      "title": "Monthly Reflector",
+      "description": "Write 30 journal entries",
+      "category": "journal"
+    },
+    {
+      "id": "journal_streak_7",
+      "title": "Journaling Streak",
+      "description": "Journal 7 days in a row",
+      "category": "journal"
+    },
+    {
+      "id": "mission_first",
+      "title": "Mission Possible",
+      "description": "Complete your first mission",
+      "category": "mission"
+    },
+    {
+      "id": "mission_all_day",
+      "title": "Mission Sweep",
+      "description": "Complete all 3 daily missions",
+      "category": "mission"
+    },
+    {
+      "id": "mission_sweep_7",
+      "title": "Mission Master",
+      "description": "Sweep all missions 7 days in a row",
+      "category": "mission"
+    },
+    {
+      "id": "mission_puff_free",
+      "title": "Window Warrior",
+      "description": "Complete a puff-free window",
+      "category": "mission"
+    },
+    {
+      "id": "mission_craving",
+      "title": "Craving Crusher",
+      "description": "Complete a craving mission",
+      "category": "mission"
+    },
+    {
+      "id": "money_10",
+      "title": "First Savings",
+      "description": "Save 10 in total",
+      "category": "money"
+    },
+    {
+      "id": "money_50",
+      "title": "Fifty Saved",
+      "description": "Save 50 in total",
+      "category": "money"
+    },
+    {
+      "id": "money_100",
+      "title": "Hundred Club",
+      "description": "Save 100 in total",
+      "category": "money"
+    },
+    {
+      "id": "money_500",
+      "title": "Big Saver",
+      "description": "Save 500 in total",
+      "category": "money"
+    },
+    {
+      "id": "money_1000",
+      "title": "Grand Saver",
+      "description": "Save 1,000 in total",
+      "category": "money"
+    },
+    {
+      "id": "health_first",
+      "title": "Healing Begins",
+      "description": "Reach your first health milestone",
+      "category": "health"
+    },
+    {
+      "id": "health_all",
+      "title": "Fully Recovered",
+      "description": "Reach all 8 health milestones",
+      "category": "health"
+    },
+    {
+      "id": "awareness_triggers_3",
+      "title": "Know Your Triggers",
+      "description": "Log 3 different triggers",
+      "category": "awareness"
+    },
+    {
+      "id": "awareness_moods_3",
+      "title": "Mood Mapper",
+      "description": "Log 3 different moods",
+      "category": "awareness"
+    },
+    {
+      "id": "awareness_locations_3",
+      "title": "Location Scout",
+      "description": "Log from 3 different places",
+      "category": "awareness"
+    }
+  ]
+}
